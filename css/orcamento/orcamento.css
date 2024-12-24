@@ -104,8 +104,8 @@
 
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
-  background: var(--cor-0) url("../../img/dec/bottom-rigth.svg") no-repeat
-    bottom 20px rigth 20px;
+  background: var(--cor-0) url("../../img/dec/bottom-rigth.svg") no-repeat;
+  bottom: 20px rigth 20px;
 }
 
 .orcamento-conteudo {
