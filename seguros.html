@@ -1,16 +1,18 @@
-<html lang="pt-br">
+<html lang="pt-br" class="js">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seguros | Bikcraft</title>
   <meta name="description" content="Seguros">
-  <link rel="preload;" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">-->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload;" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
   <title>Bikcraft - Bicicletas Elétricas</title>
+  <script> documentElement.classList.add('js') </script>
 </head>
 
 <body id="seguros">
@@ -30,33 +32,33 @@
   <main class="seguro-bg">
     <div class="titulo-bg">
       <div class="'titulo container">
-        <p class="font-2-1-b cor-5">Escolha o seguro </p>
-        <h1 class="font-1-xxl cor-0"> Você seguro <span class="cor-p1">.</span></h1>
+        <p class="font-2-1-b cor-5" data-anime="250">Escolha o seguro </p>
+        <h1 class="font-1-xxl cor-0" data-anime="350"> Você seguro <span class="cor-p1">.</span></h1>
       </div>
     </div>
 
     <div class="seguro container ">
-      <div class="seguro-item">
-        <h3 class="font-1-xl cor-6">PRATA</h3>
+      <div class="seguro-item fadeInLeft" data-anime="400">
+        <h3 class="font-1-xl cor-6" data-anime="300">PRATA</h3>
         <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6"> mensal</span></span>
         <ul class="font-2-m cor-0">
-          <li>Duas trocas por ano</li>
-          <li> Assistência técnica</li>
-          <li> Suporte 08h às 18h</li>
-          <li> Cobertura estadua</li>
+          <li data-anime="500" class="fadeInLeft">Duas trocas por ano</li>
+          <li data-anime="600" class="fadeInRight"> Assistência técnica</li>
+          <li data-anime="700" class="fadeInLeft"> Suporte 08h às 18h</li>
+          <li data-anime="800" class="fadeInRight"> Cobertura estadua</li>
         </ul>
         <a class="botao botao2" href="./orcamento.html?tipo=seguro&produto=prata"> Inscreva-se</a>
       </div>
-      <div class="seguro-item">
+      <div class="seguro-item fadeInRight" data-anime="400">
         <h3 class="font-1-xl cor-p1">Ouro</h3>
         <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6"> mensal</span></span>
         <ul class="font-2-m cor-0">
-          <li>Cinco trocas por ano</li>
-          <li>Assistência especial</li>
-          <li> Suporte 24h</li>
-          <li> Cobertura nacional</li>
-          <li> Desconto em parceiros</li>
-          <li> Acesso ao Clube Bikcraft</li>
+          <li data-anime="500" class="fadeInLeft">Cinco trocas por ano</li>
+          <li data-anime="600" class="fadeInRight">Assistência especial</li>
+          <li data-anime="700" class="fadeInLeft"> Suporte 24h</li>
+          <li data-anime="600" class="fadeInRight"> Cobertura nacional</li>
+          <li data-anime="700" class="fadeInLeft"> Desconto em parceiros</li>
+          <li data-anime="600" class="fadeInRight"> Acesso ao Clube Bikcraft</li>
         </ul>
         <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro"> Inscreva-se</a>
       </div>
@@ -174,6 +176,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"> </script>
 
 </body>

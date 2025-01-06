@@ -61,3 +61,6 @@ function eventoGaleria(img) {
 }
 
 galeria.forEach(eventoGaleria);
+
+//animação
+new SimpleAnime();
